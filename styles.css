@@ -1,0 +1,132 @@
+:root {
+    --dawn: url(dawn.jpg);
+    --morning: url(morning.png);
+    --sunset: url(sunset.jpg);
+    --evening: url(evening.jpg);
+    --afternoon: url(afternoon.jpg);
+    --light-font-color: #fff;
+    --dark-font-color: #000;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: unset;
+}
+
+body {
+    height: 100vh
+}
+
+*,
+ ::after,
+ ::before {
+    box-sizing: border-box;
+    text-shadow: 2px 4px 9px black;
+}
+
+body .loading * {
+    display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    padding: .3em 1em;
+    margin: 0;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+h1#clock {
+    padding: 0;
+    line-height: 1em;
+    font-size: 7rem;
+}
+
+h2 {
+    padding: 0;
+    font-size: 2rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: brightness(.8);
+    transition: background-image opacity 0.3s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#btns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+button.override_time {
+    margin: 1rem .5rem;
+    padding: 0.1em 3em;
+    font-size: 1.4rem;
+    background: unset;
+    border-radius: 5rem;
+    text-shadow: unset;
+    color: white;
+    background: #242424ad;
+    cursor: pointer;
+}
+
+button#dawn {
+    border-color: blue;
+}
+
+button#morning {
+    border-color: yellow;
+}
+
+button#afternoon {
+    border-color: #8cd51b;
+}
+
+button#sunset {
+    border-color: #c5a066;
+}
+
+button#evening {
+    border-color: #599ae4;
+}
+
+#todays_up {
+    margin: 2rem 15vw;
+    text-align: center;
+    background-color: #00000045;
+    padding: .5em 1em;
+    border-radius: .5em;
+
+
+}
+.footer {
+  height: 50px;
+  background-color: var(--main-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+}
+
+.footer a {
+  color: white;
+  }
