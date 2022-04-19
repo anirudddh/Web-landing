@@ -1,9 +1,9 @@
 :root {
-    --dawn: url(dawn.jpg);
-    --morning: url(morning.png);
-    --sunset: url(sunset.jpg);
-    --evening: url(evening.jpg);
-    --afternoon: url(afternoon.jpg);
+    --dawn: url(https://anirudddh.github.io/Web-landing/dawn.jpg);
+    --morning: url(https://anirudddh.github.io/Web-landing/morning.png);
+    --sunset: url(https://anirudddh.github.io/Web-landing/sunset.jpg);
+    --evening: url(https://anirudddh.github.io/Web-landing/evening.jpg);
+    --afternoon: url(https://anirudddh.github.io/Web-landing/afternoon.jpg);
     --light-font-color: #fff;
     --dark-font-color: #000;
 }
